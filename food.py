@@ -15,4 +15,4 @@ class Food(Turtle):
         self.refresh_location()
 
     def refresh_location(self):
-        self.goto(randint(-280, 280), randint(-280, 280))
+        self.goto(randint(-250, 250), randint(-250, 250))
